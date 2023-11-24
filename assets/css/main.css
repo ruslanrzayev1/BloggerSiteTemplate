@@ -1,0 +1,529 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+header nav {
+  width: 75%;
+}
+header nav .navbaritems {
+  display: flex;
+  justify-content: flex-end;
+}
+header nav .navbaritems .navbaritemsul {
+  font-family: poppins;
+  font-size: 14px;
+  gap: 25px;
+}
+header nav .navbaritems .navbaritemsul li a:hover {
+  color: #007bff;
+}
+header nav .navbaritems .navbaritemsul .pagesli {
+  position: relative;
+}
+header nav .navbaritems .navbaritemsul .pagesli:hover .pagesdropdown {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+  background-color: white;
+  width: 180%;
+}
+header nav .navbaritems .navbaritemsul .pagesli:hover .pagesdropdown li:hover {
+  color: #007bff;
+}
+header nav .navbaritems .navbaritemsul .pagesli .pagesdropdown {
+  display: none;
+  position: absolute;
+  list-style: none;
+}
+
+#boats {
+  width: 100%;
+  height: 715px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://preview.colorlib.com/theme/blogger/img/header-bg.jpg);
+}
+#boats .row {
+  background-color: rgba(0, 0, 0, 0.242);
+  height: 715px;
+}
+#boats .col-6 {
+  display: flex;
+  justify-content: center;
+}
+#boats .col-6 .likescomments {
+  width: 43%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+}
+#boats .col-6 .imgandnamecnt {
+  width: 43%;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align: end;
+}
+#boats .col-12 {
+  display: flex;
+  justify-content: center;
+}
+#boats .discounttxt {
+  width: 72%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+#boats .discounttxt h1 {
+  font-size: 50px;
+  font-family: poppins;
+  font-weight: 900;
+  color: white;
+}
+
+#latestNews {
+  height: 746px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#latestNews .latestNewsTxt {
+  height: 187px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+#latestNews .latestNewsTxt h1 {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  font-weight: 600;
+  font-size: 36px;
+}
+#latestNews .latestNewsTxt p {
+  color: #9b9b9b;
+  width: 67%;
+}
+#latestNews .makesHotel {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#latestNews .makesHotel p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26%;
+  background-color: black;
+  color: #a8a4a4;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 100;
+}
+#latestNews .makesHotel h4 {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  font-weight: 700;
+  color: #222222;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#travelSection {
+  width: 100%;
+  height: 959px;
+  background-color: #f9f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#travelSection .row .travelSectionTxt {
+  width: 100%;
+  height: 199px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+#travelSection .row .travelSectionTxt h1 {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  font-weight: 600;
+  font-size: 36px;
+}
+#travelSection .row .travelSectionTxt p {
+  color: #9b9b9b;
+  width: 60%;
+}
+#travelSection .row .gambling {
+  display: flex;
+  gap: 10px;
+  position: relative;
+}
+#travelSection .row .gambling .gamblingTxt h4 {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+}
+#travelSection .row .gambling .gamblingTxt h4:hover {
+  color: #69b4fd;
+}
+#travelSection .row .gambling .gamblingTxt p {
+  color: #9b9b9b;
+}
+#travelSection .row .gambling .gamblingTxt .monthdec {
+  background-color: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 12%;
+  height: 45%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+#travelSection .row .gambling .gamblingTxt .monthdec h4 {
+  color: white;
+  height: 20%;
+}
+#travelSection .row .gambling .gamblingTxt .monthdec p {
+  height: 20%;
+}
+#travelSection .row .gambling .gamblingTxt .commentLike {
+  display: flex;
+  justify-content: space-around;
+}
+#travelSection .row .gambling .gamblingTxt .commentLike p {
+  color: #9b9b9b;
+  width: 67%;
+}
+#travelSection .loadMore {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#travelSection .loadMore button {
+  width: 13%;
+  height: 24%;
+  background-color: #69b4fd;
+  border-radius: 23px;
+  border: none;
+  color: white;
+  font-size: 14.5px;
+  font-family: poppins;
+}
+#travelSection .loadMore button:hover {
+  background: none;
+  color: #69b4fd;
+  border: 1px solid #69b4fd;
+}
+
+#fashionNews {
+  width: 100%;
+  height: 920px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#fashionNews .fashionNewsTxt {
+  height: 296px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#fashionNews .fashionNewsTxt h1 {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  font-weight: 600;
+  font-size: 36px;
+}
+#fashionNews .fashionNewsTxt p {
+  color: #777777;
+  width: 60%;
+  text-align: center;
+  font-size: 16px;
+}
+#fashionNews .fashionNewsAddition {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 7px;
+}
+#fashionNews .fashionNewsAddition .jan2018 {
+  background-color: black;
+  width: 38%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a8a4a4;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 100;
+}
+#fashionNews .fashionNewsAddition .additionCommentLike {
+  display: flex;
+  justify-content: space-between;
+}
+#fashionNews .fashionNewsAddition .additionCommentLike p {
+  color: #777777;
+  width: 67%;
+  font-size: 16px;
+}
+#fashionNews h4 {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  font-weight: 600;
+  font-size: 19px;
+  cursor: pointer;
+  width: 100%;
+}
+#fashionNews h4:hover {
+  color: #69b4fd;
+}
+#fashionNews p {
+  color: #777777;
+  width: 97%;
+  font-size: 14px;
+}
+#fashionNews .loadMoreBtn {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#fashionNews .loadMoreBtn button {
+  width: 13%;
+  height: 22%;
+  background-color: #69b4fd;
+  border-radius: 23px;
+  border: none;
+  color: white;
+  font-size: 14.5px;
+  font-family: poppins;
+}
+#fashionNews .loadMoreBtn button:hover {
+  background: none;
+  color: #69b4fd;
+  border: 1px solid #69b4fd;
+}
+
+#bloggerTeam {
+  width: 100%;
+  height: 798px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9ff;
+}
+#bloggerTeam .bloggerTeamTxt {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  height: 190px;
+  width: 100%;
+}
+#bloggerTeam .bloggerTeamTxt h1 {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  font-weight: 600;
+  font-size: 36px;
+}
+#bloggerTeam .bloggerTeamTxt p {
+  color: #777777;
+  width: 66%;
+  text-align: center;
+  font-size: 16px;
+}
+#bloggerTeam .aboutTxt {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#bloggerTeam .aboutTxt p {
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #777777;
+  width: 90%;
+}
+#bloggerTeam .developers {
+  display: flex;
+  gap: 12px;
+  height: 100%;
+}
+#bloggerTeam .developers .developer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+#bloggerTeam .developers .developer h4 {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #222222;
+  font-family: Poppins, sans-serif;
+  height: 40px;
+  display: flex;
+  align-items: end;
+}
+#bloggerTeam .developers .developer p {
+  color: #777777;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 300;
+}
+
+#bloggerAbout {
+  width: 100%;
+  height: 507px;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#bloggerAbout .topProducts {
+  width: 100%;
+  height: 60%;
+}
+#bloggerAbout .topProducts h6 {
+  height: 25%;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  line-height: 22px;
+  font-family: poppins;
+}
+#bloggerAbout .topProducts p {
+  font-size: 14px;
+  line-height: 23px;
+  font-family: 300;
+  color: white;
+}
+#bloggerAbout .newsletter {
+  width: 100%;
+  height: 100%;
+}
+#bloggerAbout .newsletter h6 {
+  height: 23%;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  line-height: 22px;
+  font-family: poppins;
+}
+#bloggerAbout .newsletter P {
+  font-size: 16px;
+  line-height: 23px;
+  font-family: 300;
+  color: white;
+}
+#bloggerAbout .newsletter .subscribe {
+  width: 100%;
+  height: 23%;
+  display: flex;
+  gap: 30px;
+}
+#bloggerAbout .newsletter .subscribe input {
+  width: 54%;
+  height: 97%;
+  border-radius: 20px;
+  border: none;
+}
+#bloggerAbout .newsletter .subscribe input::placeholder {
+  padding: 15px;
+  font-size: 14px;
+}
+#bloggerAbout .newsletter .subscribe .subscribeBtn {
+  width: 30%;
+  height: 97%;
+  background-color: #69b4fd;
+  border-radius: 23px;
+  border: none;
+  color: white;
+  font-size: 14.5px;
+  font-family: poppins;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+}
+#bloggerAbout .instagramFeed {
+  height: 100%;
+}
+#bloggerAbout .instagramFeed h6 {
+  height: 16%;
+  height: 23%;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  line-height: 22px;
+  font-family: poppins;
+}
+#bloggerAbout .copyright {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#bloggerAbout .copyright p {
+  color: #777777;
+  font-size: 15px;
+}
+#bloggerAbout .copyright p span {
+  color: #69b4fd;
+}
+#bloggerAbout .copyright .socialmediaicon {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  gap: 6px;
+}
+#bloggerAbout .copyright .socialmediaicon i {
+  background-color: #111111;
+  width: 7%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease 0.3s;
+}
+#bloggerAbout .copyright .socialmediaicon i:hover {
+  background-color: #69b4fd;
+}
